@@ -25,9 +25,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <meta name="viewport" content="width=device-width">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+
+      function embedChatbot() {
+        var scriptTag = document.createElement('script');
+
+        // If the 'SAP CAI Web Client' channel is chosen
+        scriptTag.setAttribute("id", "cai-webchat");
+        scriptTag.setAttribute("src", "https://cdn.cai.tools.sap/webchat/webchat.js");
+        // If the 'Webchat' channel is chosen
+        document.body.appendChild(scriptTag);
+        scriptTag.setAttribute("channelId", "5d12b542-de51-4e86-9e53-0e68aa569d23");
+        scriptTag.setAttribute("token", "c355a11e7789e39a67fc951bdc339f05");
+      }
+
+      embedChatbot();
+
+
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.

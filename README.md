@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Setting
+
+Instalar 
+> npm i gh-pages -D
+
+Añadir el homepage
+
+- https://mauriciochavezpe.github.io/chatbot_proveedores
+
+Abrir la página
+- https://mauriciochavezpe.github.io/chatbot_proveedores/
